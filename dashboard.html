@@ -1,0 +1,483 @@
+
+   
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		
+		
+    <meta charset="utf-8" />
+    <title>Dashboard - 24cryptofxmining || #1 Bitcoin Crypto Exchange Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <!-- Template CSS Files -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/select2.min.css">
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/skins/orange.css">
+    <link rel="stylesheet" href="css/floating-whatsapp.min.css">
+<link href="cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+    <!-- Template JS Files -->
+    <script src="js/modernizr.js"></script>
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"></head>
+<body>
+    <!-- SVG Preloader Starts -->
+    <div id="preloader">
+        <div id="preloader-content">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="150px" height="150px" viewBox="100 100 400 400" xml:space="preserve">
+                <filter id="dropshadow" height="130%">
+                <feGaussianBlur in="SourceAlpha" stdDeviation="5"/>
+                <feOffset dx="0" dy="0" result="offsetblur"/>
+                <feFlood flood-color="red"/>
+                <feComposite in2="offsetblur" operator="in"/>
+                <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+                </filter>          
+                <path class="path" fill="#000000" d="M446.089,261.45c6.135-41.001-25.084-63.033-67.769-77.735l13.844-55.532l-33.801-8.424l-13.48,54.068
+                    c-8.896-2.217-18.015-4.304-27.091-6.371l13.568-54.429l-33.776-8.424l-13.861,55.521c-7.354-1.676-14.575-3.328-21.587-5.073
+                    l0.034-0.171l-46.617-11.64l-8.993,36.102c0,0,25.08,5.746,24.549,6.105c13.689,3.42,16.159,12.478,15.75,19.658L208.93,357.23
+                    c-1.675,4.158-5.925,10.401-15.494,8.031c0.338,0.485-24.579-6.134-24.579-6.134l-9.631,40.468l36.843,9.188
+                    c8.178,2.051,16.209,4.19,24.098,6.217l-13.978,56.17l33.764,8.424l13.852-55.571c9.235,2.499,18.186,4.813,26.948,6.995
+                    l-13.802,55.309l33.801,8.424l13.994-56.061c57.648,10.902,100.998,6.502,119.237-45.627c14.705-41.979-0.731-66.193-31.06-81.984
+                    C425.008,305.984,441.655,291.455,446.089,261.45z M368.859,369.754c-10.455,41.983-81.128,19.285-104.052,13.589l18.562-74.404
+                    C306.28,314.65,379.774,325.975,368.859,369.754z M379.302,260.846c-9.527,38.187-68.358,18.781-87.442,14.023l16.828-67.489
+                    C327.767,212.14,389.234,221.02,379.302,260.846z"/>       
+            </svg>
+        </div>
+    </div>
+    <!-- SVG Preloader Ends -->
+    <!-- Wrapper Starts -->
+    <div class="wrapper">
+        <!-- Header Starts -->
+        <header class="header">
+            <div class="container">
+                <div class="row">
+                    <!-- Logo Starts -->
+                    <div class="main-logo col-xs-12 col-md-3 col-md-2 col-lg-2 hidden-xs">
+                        <a href="./">
+							<img id="logo" class="img-responsive" src="images/logo-dark.png" alt="logo">
+						</a>
+                    </div>
+                    <!-- Logo Ends -->
+                    <!-- User Sign In/Sign Up Starts -->
+                    <div class="col-md-3 col-lg-3" style="float: right;">
+                        <ul class="unstyled user">
+                            <li class="sign-in"><a href="profile" class="btn btn-primary"><i class="fa fa-user"></i> Profile</a></li>
+                            <li class="sign-up"><a href="logout" class="btn btn-primary"><i class="fa fa-sign-out"></i> Logout</a></li>
+                        </ul>
+                    </div>
+                    <!-- User Sign In/Sign Up Ends -->
+                </div>
+            </div>
+            <!-- Navigation Menu Starts -->
+        <div id="WAButton" style="z-index: 5; position: absolute;"></div>
+            <nav class="site-navigation navigation" id="site-navigation">
+                <div class="container">
+                    <div class="site-nav-inner">
+                        <!-- Logo For ONLY Mobile display Starts -->
+                        <a class="logo-mobile text-center" href="./">
+							<img id="logo-mobile" class="img-responsive" src="images/logo-dark.png" alt="">
+						</a>
+                        <!-- Logo For ONLY Mobile display Ends -->
+                        <!-- Toggle Icon for Mobile Starts -->
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+                        <!-- Toggle Icon for Mobile Ends -->
+                        <div class="collapse navbar-collapse navbar-responsive-collapse">
+                            <!-- Main Menu Starts -->
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="./">Home</a></li>
+                                <li><a href="../about">About Us</a></li>
+                                <li><a href="../services">Services</a></li>
+                                <li><a href="../pricing">Pricing</a></li>
+                                <li><a href="../contact">Contact</a></li>
+                            </ul>
+                            <!-- Main Menu Ends -->
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- Navigation Menu Ends -->
+        </header>
+        <!-- Header Ends -->
+        <div id="WAButton"></div>
+        <!-- Banner Area Starts -->
+		<section class="banner-area">
+			<div class="banner-overlay">
+				<div class="banner-text text-center">
+					<div class="container">
+						<!-- Section Title Starts -->
+						<div class="row text-center">
+							<div class="col-xs-12">
+								<!-- Title Starts -->
+								<h2 class="title-head">Welcome, <span>clinton <span class="fa fa-user"> </span> </span></h2>
+								<label for="ref"><i class="fa fa-handshake-o prefix"></i> Your referral link</label>
+								<input class="form-control" id="ref" type="text" placeholder="https://www.24cryptofxmining.org/register?ref=clinton4" value="https://www.24cryptofxmining.org/register?ref=clinton" name="">
+								<!-- Title Ends -->
+								<hr>
+								<!-- Breadcrumb Starts -->
+								<ul class="breadcrumb">
+									<li><a href="./"> Dashboard</a></li>
+								</ul>
+								<!-- Breadcrumb Ends -->
+							</div>
+						</div>
+						<!-- Section Title Ends -->
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Banner Area Ends -->
+        <div id="WAButton"></div>
+		<!-- Section Content Starts -->
+        <section class="container blog-page">
+                             <div id="wform">  <form class="form-container" method="POST" enctype="multipart/form-data" id="walletform" style="margin-bottom: 4%;" >
+                    <!-- Error Pane -->
+                            <div class="form-group" align="center">
+                                <p class="alert alert-warning" id="errorshow"></p>
+                            </div>
+                            <!-- End Error Pane -->
+                        <div class="row">
+                            <div class="col-md-10">
+                                <input type="text" name="wallet" id="wallet" class="form-control" value="" placeholder="Enter your Bitcoin Wallet Address">
+                            </div>
+                            <div class="col-md-2">
+                                <button class="btn btn-primary" type="submit" id="btnWallet">Save address <span class="fa fa-bitcoin"></span></button>
+                            </div>
+                        </div>
+                    </form></div>
+                			<div class="row">
+				<!-- Sidebar Starts -->
+				<div class="sidebar col-md-4" >
+					<!-- Categories Widget Starts -->
+					<div style="hover{}" class="widget">
+						<h2 class="widget-title">Dashboard</h2>
+						<ul class="nav nav-tabs">
+                            <li>
+                                <h4 class="text-center" style="color: #FFF;"><b style="text-transform: uppercase;">Current Plan: </b><br>
+                                    <span class="text-center">STARTER<sup class="badge" style="background:#01aa01;"> Active</sup></span></h4>
+                                
+                            </li>
+							<li>
+                                <a href="#pageSubMenu1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Account <i class="fa fa-caret-down"></i></a>
+                                <ul class="collapse list-unstyled" id="pageSubMenu1">
+                                    <li></li>
+                                    <li><a href="profile">Profile</a></li>
+                                    <li><a href="editprofile">Edit Profile</a></li>
+                                    <li><a href="changepassword">Change Password</a></li>
+                                </ul>
+                            </li>
+							<li>
+                                <a href="#pageSubMenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Withdrawal <i class="fa fa-caret-down"></i></a>
+                                <ul class="collapse list-unstyled" id="pageSubMenu2">
+                                    <li></li>
+                                    <li><a href="withdraw">Withdraw Now!</a></li>
+                                    <li><a href="withdrawhistory">Withdrawal History</a></li>
+                                </ul>
+                            </li>
+							<!-- <li> -->
+								<!-- <a href="#pageSubMenu3" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Investment <i class="fa fa-caret-down"></i></a> -->
+								<!-- <ul class="collapse list-unstyled" id="pageSubMenu3"> -->
+									<!-- <li></li> -->
+									<!-- <li><a href="plans">Investment Plans</a></li> -->
+									<!-- <li><a href="myplans">My Plans</a></li> -->
+								<!-- </ul> -->
+							<!-- </li> -->
+                            <li>
+                                <a href="#pageSubMenu4" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Deposit <i class="fa fa-caret-down"></i></a>
+                                <ul class="collapse list-unstyled" id="pageSubMenu4">
+                                    <li></li>
+                                    <li><a href="deposit">Deposit Now!!</a></li>
+                                    <!-- <li><a href="sendproof">Send Payment Proof</a></li> -->
+                                    <li><a href="deposithistory">Deposit History</a></li>
+                                </ul>
+                            </li>
+							<li><a href="tradehistory"> All Transactions</a></li>
+							<!-- <li> -->
+                                <!-- <a href="#pageSubMenu5" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Referral <i class="fa fa-caret-down"></i></a> -->
+                                <!-- <ul class="collapse list-unstyled" id="pageSubMenu5"> -->
+                                    <!-- <li></li> -->
+                                                                        <!-- <li><a href="../myreferrals">My Referrals <span class="badge">0</span></a></li> -->
+                                <!-- </ul> -->
+                            <!-- </li> -->
+							<li><a href="../contact">Support</a></li>
+						</ul>
+					</div>
+					<!-- Categories Widget Ends -->
+				</div>
+				<!-- Sidebar Ends -->
+				<div class="col-md-8">
+					<div class="row">
+						<	<div class="col-md-12">
+							<div class="pricing-wrapper" style="background: #222">
+								<header style="text-align:left;" class="pricing-header">
+									<div align="center"><a href="#"><span class="" style="font-size:34px; font-weight:900;">TRADER BOARD </span> <i class="fa fa-2x fa-user"></i></a></div>
+                                   <hr>
+								<div class="mx-auto"> 
+									<span style="font-size:15px; text-align:left !important; text-transform:uppercase; font-weight:900; color:#5884ff;">Account Name:</span>
+									<span style="margin-left:20%; color:#fff;">Clinton Stamford</span>
+									<hr style=" background:#5884ff;">
+								</div>
+								
+								<div class="mx-auto"> 
+									<span style="font-size:15px; text-align:left !important; text-transform:uppercase; font-weight:900; color:#5884ff;">Account lEVEL:</span>
+									<span style="margin-left:20%; color:#fff;">STARTER</span>
+									<hr style=" background:#5884ff;">
+								</div>
+								
+								<div class="mx-auto"> 
+									<div class="row">
+										<div class="col-xs-6">
+											<span style="font-size:15px; text-align:left !important; text-transform:uppercase; font-weight:900; color:#5884ff;"> Balance($):</span>
+											<span style="margin-left:20%; color:#fff; font-weight:700;">$0.00</span>
+											<hr style=" background:#5884ff;">
+										</div>
+										
+										<div class="col-xs-6">
+											<span style="font-size:15px; text-align:left !important; text-transform:uppercase; font-weight:900; color:#5884ff;"> Balance(&#8383;):</span>
+											<span style="margin-left:20%; color:#fff; font-weight:700;">0BTC</span>
+											<hr style=" background:#5884ff;">
+										</div>
+										
+									</div>
+								</div>
+								
+							<div class="mx-auto"> 
+									<div class="row">
+										<div class="col-xs-6">
+											<span style="font-size:15px; text-align:left !important; text-transform:uppercase; font-weight:900; color:#5884ff;"> Bonus($):</span>
+											<span style="margin-left:20%; color:#fff; font-weight:700;">$0.00</span>
+											<hr style=" background:#5884ff;">
+										</div>
+										
+										<div class="col-xs-6">
+											<span style="font-size:15px; text-align:left !important; text-transform:uppercase; font-weight:900; color:#5884ff;"> Invested(&dollar;):</span>
+											<span style="margin-left:20%; color:#fff; font-weight:700;">$0.00</span>
+											<hr style=" background:#5884ff;">
+										</div>
+										
+									</div>
+								</div>
+
+								
+                               
+                                </header>
+    							<footer hidden style="display:none" class="pricing-footer">
+    								<a href="tradehistory" class="btn btn-primary">VIEW HISTORY</a>
+                                </footer>
+                            </div>
+						</div>
+						<!-- <div class="col-md-6"> -->
+							<!-- <div class="pricing-wrapper" style="background: #222"> -->
+								<!-- <header class="pricing-header"> -->
+									<!-- <div align="center"><a href="#"><i class="fa fa-2x fa-handshake-o"></i></a></div> -->
+                                    <!-- <h2>REFERRAL EARNINGS </h2> -->
+                                    <!-- <div class="price"> -->
+                                        <!-- <span class="currency"><i class="fa fa-dollar"></i></span> -->
+                                        <!-- <span class="value">0.00</span> -->
+                                    <!-- </div> -->
+                                <!-- </header> -->
+    							<!-- <footer class="pricing-footer"> -->
+    								<!-- <a href="myreferrals" class="btn btn-primary">VIEW HISTORY</a> -->
+                                <!-- </footer> -->
+                            <!-- </div> -->
+						<!-- </div> -->
+						   
+					</div>
+                    <!-- Row End -->
+                    <!-- Row Start -->
+                   
+                    <!-- Row End -->
+				</div>
+			</div>
+		</section>
+		<!-- Section Content Ends -->
+        <!-- Footer Starts -->
+        <footer class="footer">
+            <!-- Footer Top Area Starts -->
+            <div class="top-footer">
+                <div class="container">
+                    <div class="row">
+                        <!-- Footer Widget Starts -->
+                        <div class="col-sm-4 col-md-2">
+                            <h4>Our Company</h4>
+                            <div class="menu">
+                                <ul>
+                                    <li><a href="./">Home</a></li>
+                                    <li><a href="../about">About</a></li>
+                                    <li><a href="../services">Services</a></li>
+                                    <li><a href="../pricing">Pricing</a></li>
+                                    <li><a href="../contact">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Footer Widget Ends -->
+                        <!-- Footer Widget Starts -->
+                        <div class="col-sm-4 col-md-2">
+                            <h4>Help & Support</h4>
+                            <div class="menu">
+                                <ul>
+                                    <li><a href="../faq">FAQ</a></li>
+                                    <li><a href="../terms-of-services">Terms of Services</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Footer Widget Ends -->
+                        <!-- Footer Widget Starts -->
+                        <div class="col-sm-4 col-md-3">
+                            <h4>Contact Us </h4>
+                            <div class="contacts">
+                                <div>
+                                    <span>Support@flipcryptofxmining.com</span>
+                                </div>
+                                <div>
+                                    <a href="https://api.whatsapp.com/send?phone=18143634169" target="_blank" style="color: #999;" aria-hidden="true"><span class="fa fa-qq"> +1 814 363 4169</span></a>
+                                </div>
+                                <div>
+                                    <span>Canada Location: 1 Front ST W , Toronto, ON M5j 2X6, Canada</span>
+                                    <span>United States Location: 101 West Broadway, San Diego, CA 92101, USA</span>
+                                </div>
+                                <div>
+                                    <span>mon-sat 08am &#x21FE; 05pm</span>
+                                </div>
+                            </div>
+                            <!-- Social Media Profiles Starts -->
+                            <div class="social-footer">
+                                <ul>
+                                    <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                            <!-- Social Media Profiles Ends -->
+                        </div>
+                        <!-- Footer Widget Ends -->
+                        <!-- Footer Widget Starts -->
+                        <div class="col-sm-12 col-md-5">
+                            <!-- Facts Starts -->
+                            <div class="facts-footer">
+                                <div>
+                                     <h5>241,154</h5>
+                                    <span>Total Number of Traders</span>
+                                </div>
+                                <div>
+                                    <h5>180,060</h5>
+                                    <span>Online Traders</span>
+                                </div>
+                                <div>
+                                    <h5>146,630</h5>
+                                    <span>offline traders</span>
+                                </div>
+                                <div>
+                                    <h5>150,420</h5>
+                                    <span>total trader cash out</span>
+                                </div>
+                            </div>
+                            <!-- Facts Ends -->
+                            <hr>
+                            <!-- Supported Payment Cards Logo Starts -->
+							<div class="payment-logos">
+								<h4 class="payment-title">supported payment methods</h4>
+								<img src="images/american-express.png" alt="american-express">
+								<img src="images/mastercard.png" alt="mastercard">
+								<img src="images/visa.png" alt="visa">
+								<img src="images/paypal.png" alt="paypal">
+								<img class="last" src="images/maestro.png" alt="maestro">
+							</div>
+							<!-- Supported Payment Cards Logo Ends -->
+                        </div>
+                        <!-- Footer Widget Ends -->
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Top Area Ends -->
+            <!-- Footer Bottom Area Starts -->
+            <div class="bottom-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <!-- Copyright Text Starts -->
+                            <p class="text-center">&copy; 2022 <a href="flipcryptofxmining.com" target="_blank">flipcryptofxmining</a></p>
+                            <!-- Copyright Text Ends -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Bottom Area Ends -->
+        </footer>
+        <!-- Footer Ends -->
+		<!-- Back To Top Starts  -->
+        <a href="#" id="back-to-top" class="back-to-top fa fa-arrow-up"></a>
+		<!-- Back To Top Ends  -->
+		
+        <!-- Template JS Files -->
+        <script src="js/jquery-2.2.4.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/select2.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/custom.js"></script>
+        <!--<script src="../js/js.js"></script>-->
+        <!--Floating WhatsApp javascript-->
+        <script src="js/floating-whatsapp.min.js"></script>
+
+        <script>
+            $(document).ready(function(){
+                $("#errorshow").hide();
+            });
+            
+            $("form#walletform").submit(function(e) {
+                e.preventDefault();    
+                var formData = new FormData(this);
+                $.ajax({
+                    url: '../php/wallet.php',
+                    type: 'POST',
+                    data: formData,
+                    beforeSend:function(){
+                    $('#btnWallet').html("saving address <span class='fa fa-1x fa-cog fa-spin'></span>");
+                    },
+                    success: function (data) {
+						datab = data.trim();
+						
+                    if (data.trim() == "saved".trim()) {
+                        $("#errorshow").show();
+                        $("#errorshow").html("Wallet Address added Successful!!");
+                        $('#btnWallet').html("Saved Successful!!");
+                        setTimeout(' window.location.href = "../members"; ', 2000);
+                    }else{
+                        $("#errorshow").show();
+                        $("#errorshow").html(data);
+                        $('#btnWallet').html("save wallet <span class='fa fa-1x fa-bitcoin'></span>");
+                    }   
+                    },
+                    cache: false,
+                    error:function(){
+                          $('#errorshow').html("An error has occured!!");
+                          $('#btnWallet').html("save wallet <span class='fa fa-1x fa-bitcoin'></span>");
+                    },
+                    contentType: false,
+                    processData: false
+                });
+            });
+        </script>
+    
+
+    </div>
+	<script src="cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.min.js"></script>
+		<!--<script>  alert('1 '); </script>-->
+		
+	<!--//tawk to-->
+
+</body>
+</html>
